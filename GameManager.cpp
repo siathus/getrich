@@ -17,9 +17,15 @@ void GameManger::launch() {
         /*** R-GM-5 ***/
         char dice1, dice2;
         char posBefore, pos;
+        int *point;
         //TODO: posBefore = players.position()
-        //TODO: cv.drawDice()
-        //TODO: dice1, 2 = random value (1 ~ 6)
+        /*** Issue #2 ***/
+        /*
+            dice.rollDice();
+            int* point = dice.getDicePoint();
+            dice1 = point[0];
+            dice2 = point[1];
+        */
         //TODO: pos = players.move(dice1 + dice2)
 
         /*** R-GM-10 ***/
