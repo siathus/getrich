@@ -28,28 +28,37 @@ void GameManger::launch() {
         */
         //TODO: pos = players.move(dice1 + dice2)
 
+        /*** R-GM-6: uninhabited arrival ***/
+        //if (map[pos].type == UNINHABITED)
+            //if (dice1 != dice2)
+                //player.trap--;
+            //else
+                //player.trap = 0;
+
         /*** R-GM-10 ***/
         if(pos < posBefore) {
             //players.salary()
         }
 
         /*** R-GM-6 ***/
-        //TODO: switch(map[pos].type)
-            //TODO: bonus game
-            //TODO: uninhabited arrival
-            //TODO: olympic
-            //TODO: fortune card
-            //TODO: world travel
-            //TODO: revenue
-            //TODO: start point
-            //TODO: default -
-                //TODO: if owner is me
-                    //TODO: build a building or landmark
-                //TODO: else
-                    //TODO: give toll
-                    /*** R-GM-12(a) ***/
-                    //TODO: if player.asset <= 0
-                        break;
+        //if (player.trap == 0)
+            //TODO: switch(map[pos].type)
+                //TODO: bonus game
+                //TODO: uninhabited arrival
+                    //player.trap = 3
+                //TODO: olympic
+                //TODO: fortune card
+                //TODO: world travel
+                //TODO: revenue
+                //TODO: start point
+                //TODO: default -
+                    //TODO: if owner is me
+                        //TODO: build a building or landmark
+                    //TODO: else
+                        //TODO: give toll
+                        /*** R-GM-12(a) ***/
+                        //TODO: if player.asset <= 0
+                            break;
         
         /*** R-GM-7, R-GM-8 ***/
         if (dice1 != dice2) {
